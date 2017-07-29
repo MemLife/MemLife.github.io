@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+			<title>fdf's markdown - Your awesome title</title>
+		
+
+    <link rel="stylesheet" href="/assets/styles.css">
+		<link rel="shortcut icon" href="">
+	</head>
+	<body>
+
+		<header class="header">
+  <div class="container">
+    <a class="logo" href="http://localhost:4000" title="Your awesome title">
+  <img src="" alt="Your awesome title logo"/>
+</a>
+
+    <nav class="nav">
+  <ul class="list list--nav">
+    
+      
+        <li class="item  item--nav">
+          
+            <a href="/">FDF's Blog</a>
+      		
+        </li>
+      
+    
+      
+    
+  </ul>
+</nav>
+
+  </div>
+</header>
+
+
+<main class="main  container">
+
+	<article class="article  article--post  content  typeset">
+
+    <h1>fdf's markdown</h1>
+		<small class="small  post-meta">
+  <time datetime="2017-07-20T00:00:00+08:00" class="time">20 Jul 2017</time>
+</small>
+
+    <p><code class="highlighter-rouge">没有什么能永垂不朽</code></p>
+<h1 id="目录">目录</h1>
+
+<h2 id="markdown语法">markdown语法</h2>
+<ul>
+  <li>语法一
+    <ul>
+      <li><a href="markdown.md#标题">标题</a></li>
+      <li><a href="markdown.md#段落">段落</a></li>
+      <li><a href="markdown.md#强调">强调</a></li>
+      <li><a href="markdown.md#列表">列表</a></li>
+    </ul>
+  </li>
+  <li>语法二
+    <ul>
+      <li><a href="markdown.md#链接">链接</a></li>
+      <li><a href="markdown.md#图片">图片</a></li>
+      <li><a href="markdown.md#引用">引用</a></li>
+      <li><a href="markdown.md#代码块">代码块</a></li>
+    </ul>
+  </li>
+  <li>语法三
+    <ul>
+      <li><a href="markdown.md#表格">表格</a></li>
+      <li><a href="markdown.md#水平分割线">水平分割线</a></li>
+      <li><a href="markdown.md#HTML语法">HTML语法</a></li>
+      <li><a href="markdown.md#GFM">GFM</a></li>
+      <li><a href="markdown.md#表情符号">表情符号</a></li>
+    </ul>
+  </li>
+  <li>语法四
+    <ul>
+      <li><a href="markdown.md#混合强调样式">混合强调样式</a></li>
+      <li><a href="markdown.md#图片链接">图片链接</a></li>
+      <li><a href="markdown.md#有序表的打断与连接">有序表的打断与连接</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="markdown工具">markdown工具</h2>
+<ul>
+  <li><a href="markdown.md#Windows平台">Windows 平台</a></li>
+  <li><a href="markdown.md#Linux平台">Linux 平台</a></li>
+  <li><a href="markdown.md#Mac平台">Mac 平台</a></li>
+  <li><a href="markdown.md#在线编辑器">在线编辑器</a></li>
+  <li><a href="markdown.md#浏览器插件">浏览器插件</a></li>
+  <li><a href="markdown.md#高级应用">高级应用</a></li>
+</ul>
+
+<h2 id="其他资料">其他资料</h2>
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>[码字必备：18 款优秀的 Markdown 写作工具</td>
+          <td>2015 年度盘点](https://sspai.com/post/32483)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li><a href="http://sspai.com/34317">简洁与强大，从不是矛盾的事物：写作工具 MarkEditor 功能详解</a></li>
+  <li><a href="http://sspai.com/34656">不止是一款简单的码字工具：MarkEditor 进阶功能介绍</a></li>
+  <li><a href="http://www.oschina.net/news/50322/markdown-editors-and-tools">非常有用的 Markdown 编辑器和工具</a></li>
+</ul>
+
+<hr />
+
+<h1 id="标题">标题</h1>
+<p>有n个“#”，就是n级标题</p>
+<div class="highlighter-rouge"><pre class="highlight"><code># 标题1
+## 标题2
+### 标题3
+#### 标题4
+##### 标题5
+###### 标题6
+</code></pre>
+</div>
+
+<h1 id="段落">段落</h1>
+<p>正常打字出来的都是段落正文 <br />
+两个段落之间换行—–<strong>两个空格</strong></p>
+
+<h1 id="强调">强调</h1>
+
+<p>我是<em>斜体</em>文字样式<br />
+我是<strong>粗体</strong>文字样式<br />
+我是<strong><em>加粗倾斜</em></strong>样式</p>
+
+<p>我是<del>删除文字样式</del></p>
+
+<h1 id="列表">列表</h1>
+
+<h3 id="无序列表">无序列表</h3>
+<ul>
+  <li>季节
+    <ul>
+      <li>春</li>
+      <li>夏</li>
+      <li>秋</li>
+      <li>冬（只要在开头加<strong>两个空格</strong>）</li>
+    </ul>
+  </li>
+  <li>年代</li>
+</ul>
+
+<h3 id="有序列表">有序列表</h3>
+
+<ol>
+  <li>基本数据类型</li>
+  <li>整型</li>
+  <li>字符型</li>
+  <li>浮点</li>
+  <li>逻辑 （只要在开头加<strong>两个空格</strong>）</li>
+</ol>
+
+<h1 id="链接">链接</h1>
+<h3 id="内嵌式链接">内嵌式链接</h3>
+<ul>
+  <li>外部链接<br />
+   <a href="http://www.baidu.com">百度</a></li>
+  <li>内部链接
+    <ul>
+      <li>链接仓库的其他文件<a href="Demo1.md">demo1</a></li>
+      <li>链接本文档的其他部分<a href="Demo2.md#代码块">代码块</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="引用式链接">引用式链接</h3>
+<ul>
+  <li>外部链接<br />
+ <a href="http://baidu.com">百度</a>
+    <ul>
+      <li>内部链接
+        <ul>
+          <li>链接仓库的其他文件<a href="markdown.md">markdown</a></li>
+          <li>链接本文档的其他部分<a href="markdown.md#代码块">代码块</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="图片">图片</h1>
+
+<ul>
+  <li>外部图片
+<img src="url text" alt="alt" /><br />
+<img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3025836231,1085548956&amp;fm=26&amp;gp=0.jpg" alt="my github avatar" title="我的github图标" /></li>
+  <li>
+    <p>内部图片<br />
+ <img src="url text" alt="alt" /><br />
+  <img src="http://localhost:4000/allimg/image/photo.jpg" alt="谭咏麟" title="谭咏麟" /></p>
+  </li>
+  <li>图片的引用式链接
+    <ul>
+      <li><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3025836231,1085548956&amp;fm=26&amp;gp=0.jpg" alt="my github avatar" title="我的github图标" /></li>
+      <li><img src="image/photo.jpg" alt="谭咏麟" title="谭咏麟" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="引用">引用</h1>
+<ul>
+  <li>单重引用
+    <blockquote>
+      <p>我常以为是丑女造就了美人。我常以为是愚氓举出了智者。我常以为是懦夫衬照了英雄。我常以为是众生度化了佛祖。                                                                                                                      《我与地坛》</p>
+    </blockquote>
+  </li>
+  <li>多重引用
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <p>这是一个多重引文</p>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="代码块">代码块</h1>
+
+<ul>
+  <li>行内代码</li>
+</ul>
+
+<p>这个代码用来声明变量是<code class="highlighter-rouge">var = a</code>,用来打印变量函数是<code class="highlighter-rouge">console.log(a)</code>;</p>
+
+<ul>
+  <li>块式代码</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span>
+
+</code></pre>
+</div>
+
+<h1 id="水平分割线">水平分割线</h1>
+
+<h2 id="水平分割线三个横杠横杠与文字有一个空行">水平分割线三个横杠（横杠与文字有一个空行）</h2>
+
+<p>三个星号
+***</p>
+
+<p>三个下划线
+___</p>
+
+<h1 id="html代码">HTML代码</h1>
+
+<ul>
+  <li>让文字居中</li>
+</ul>
+<p align="center">Hello world!</p>
+
+<ul>
+  <li>注释文字
+<!--
+这些文字不会显示在markdown中
+--></li>
+</ul>
+
+<h1 id="表格">表格</h1>
+
+<!--表格默认左对齐，这一行通过: 控制左右对齐-->
+
+<table>
+  <thead>
+    <tr>
+      <th>这</th>
+      <th style="text-align: center">是</th>
+      <th>表</th>
+      <th style="text-align: right">头</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>row1</td>
+      <td style="text-align: center">row2</td>
+      <td>row3</td>
+      <td style="text-align: right">row4</td>
+    </tr>
+    <tr>
+      <td><strong>加粗</strong></td>
+      <td style="text-align: center"><a href="http://www.baidu.com">baidu</a></td>
+      <td>ajhdfjk</td>
+      <td style="text-align: right"><img src="images/photo.jpg" alt="表格图片" title="谭咏麟" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>| 这     | 是      | 表    | 头     |
+| ----|:----:|-----|----:|    
+|row1 |row2  |row3 | row4|
+|**加粗**|[baidu](http://www.baidu.com)|ajhdfjk|![表格图片](images/photo.jpg "谭咏麟" )|
+</code></pre>
+</div>
+<h1 id="gfm">GFM</h1>
+<p>github flvored markdown</p>
+
+<p>## task list (任务列表)</p>
+<ul>
+  <li>[x] task1</li>
+  <li>[ ] task2</li>
+  <li>[ ] task3</li>
+</ul>
+
+<p># 表情符号
+    :emoji code:</p>
+
+<p><a href="http://www.emoji-cheat-sheet.com">github表情符号码官网</a>
+或者在<a href="emoji.md">这里</a>
+:last_quarter_moon_with_face::first_quarter_moon_with_face:</p>
+
+<h1 id="混合强调样式">混合强调样式</h1>
+
+<p>基本强调样式</p>
+
+<ul>
+  <li><em>倾斜</em></li>
+  <li><strong>加粗</strong></li>
+  <li><del>删除</del></li>
+</ul>
+
+<p>混合强调样式</p>
+
+<ul>
+  <li><strong><em>加粗倾斜</em></strong></li>
+  <li><strong><del>加粗删除</del></strong></li>
+  <li><em><del>倾斜删除</del></em></li>
+</ul>
+
+<h1 id="图片链接">图片链接</h1>
+
+<p>基本文字链接</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>[链接文字](URL)
+
+[baidu](http://www.baidu.com)
+</code></pre>
+</div>
+
+<p>基本图片</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>![alt](url text)
+</code></pre>
+</div>
+
+<p><img src="images/photo.jpg" alt="谭咏麟" title="谭咏麟" /></p>
+
+<p>图片链接
+    <a href="URL"><img src="url text" alt="alt" /></a></p>
+
+<p><a href="http://www.baidu.com"><img src="images/photo.jpg" alt="谭咏麟" title="谭咏麟" /></a></p>
+
+<h1 id="有序列表的打断与连接">有序列表的打断与连接</h1>
+
+<ul>
+  <li>问题一：多级列表打断——空行不行，用文字打断</li>
+  <li>问题二：多级列表连接——将文字段落缩进四格</li>
+</ul>
+
+<ol>
+  <li>item1</li>
+  <li>item1.1</li>
+  <li>
+    <p>item1.2</p>
+  </li>
+  <li>item2</li>
+  <li>item2.1</li>
+  <li>item2.2</li>
+</ol>
+
+<p>这段文字用来打断2和3，重新编号</p>
+
+<ol>
+  <li>item3</li>
+  <li>item3.1</li>
+  <li>item3.2</li>
+</ol>
+
+<hr />
+
+<ol>
+  <li>item1</li>
+  <li>item1.1</li>
+  <li>
+    <p>item1.2</p>
+  </li>
+  <li>item2</li>
+  <li>item2.1</li>
+  <li>item2.2</li>
+</ol>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>这段文字用来缩进4格，不会打断2和3  
+</code></pre>
+</div>
+
+<ol>
+  <li>item3</li>
+  <li>item3.1</li>
+  <li>item3.2</li>
+</ol>
+
+<h1 id="windows平台">Windows平台</h1>
+
+<ul>
+  <li><a href="http://markdownpad.com/">MarkdownPad</a></li>
+  <li><a href="http://code52.org/DownmarkerWPF/">MarkPad</a>
+    <h1 id="linux平台">Linux平台</h1>
+  </li>
+  <li><a href="https://sourceforge.net/p/retext/home/ReText/">ReText</a>
+    <h1 id="mac平台">Mac平台</h1>
+  </li>
+  <li><a href="http://25.io/mou/">Mou</a>
+    <h1 id="在线编辑器">在线编辑器</h1>
+  </li>
+  <li><a href="https://markable.in/">Markable.in</a></li>
+  <li><a href="http://dillinger.io/">Dillinger.io</a>
+    <h1 id="浏览器插件">浏览器插件</h1>
+  </li>
+  <li>MaDe (Chrome)
+    <h1 id="高级应用">高级应用</h1>
+  </li>
+  <li><a href="http://www.sublimetext.com/2">Sublime Text 2</a> + <a href="http://ttscoff.github.io/MarkdownEditing/">MarkdownEditing / 教程</a></li>
+</ul>
+
+<h1 id="参考资源">参考资源</h1>
+
+<ul>
+  <li><a href="https://github.com/xirong/my-markdown">xirong</a></li>
+  <li><a href="https://github.com/wangding/courses/blob/master/markdown/Task01.md">王顶</a></li>
+  <li><a href="https://github.com/guodongxiaren/README">guodongxiaren</a></li>
+</ul>
+
+<!--下面是本文所用到的链接-->
+
+
+
+  </article>
+
+</main>
+
+<footer class="footer">
+  <div class="container">    
+    <div class="copyright  typeset">
+      <small class="small">&copy; Your awesome title 2017</small>
+    </div>
+  </div>
+</footer>
+
+
+
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Neuton" rel="stylesheet">
+	</body>
+</html>
